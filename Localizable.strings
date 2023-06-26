@@ -1,0 +1,344 @@
+/* 
+  Localizable.strings
+  GIMPASS
+
+  Created by MORI on 26/6/2023.
+  
+*/
+"CHomeVT1" = "GIMPASS for Gifted";
+"CHomeVT2" = "GIMPASS is for educators and parents";
+"CHomeVT3" = "taking care of gifted children";
+"CHomeVT4" = "contacts: u3596683@connect.hku.hk";
+"CHomeVT5" = "GIFTED EDUCATION";
+"CHomeVT6" = "IDENTIFICATION";
+"CHomeVT7" = "CURRICULUM & STRATEGIES";
+"CHomeVT8" = "RESOURCES";
+"CHomeVT9" = "SUPPORT &FAQ";
+
+// MARK: Lisview
+"ListV2" = "Theories";
+"ListV3" = "Characteristics";
+"ListV4" = "Challenges";
+
+// MARK: CardView1
+
+"Card1HomeView1" = "Three Theories";
+"Card1HomeView2" = "Three-Rings Concept";
+"Card1HomeView3" = "Differentiated Model of Giftedness and Talent (DMGT)";
+"Card1HomeView4" = "Theory of Multiple Intelligences";
+
+// MARK: 3ring concept
+"Card1View1" = "Three-ring Conception of Giftedness Model";
+"Card1View2" = "Joseph Renzulli";
+"Card1View3" = "since 1978";
+"Card1View4" = "Developed by Joseph Renzulli, the Three Ring Conception of Giftedness is a developmental approach that has revolutionized gifted and talented identification.";
+"Card1View5" = "The Three Rings include: Above Average Ability, Creativity and Task Commitment. Students who possess the combination of these three traits exhibit gifted behavior.";
+"Card1View6" = "To achieve their full potential, these students require challenges above and beyond those offered in the regular classroom.";
+
+// MARK: GagneView
+"Card2View1" = "Differentiated Model of Giftedness and Talent (DMGT)";
+"Card2View2" = "Françoys Gagné since 1985";
+"Card2View3" = "  Gagné thinks that all talents are developed from natural abilities through learning influenced by inner and outer catalysts. The main components of Gagné's model - which he refined several times - are:";
+"Card2View4" = "Natural Abilities:";
+"Card2View5" = "  Gagné lists four domains of natural abilities, which according to him are mostly genetically determined:";
+"Card2View6" = "intellectual abilities:";
+"Card2View7" = "  reasoning, memory, sense of observation, judgement, and metacognition;";
+"Card2View8" = "creative abilities:";
+"Card2View9" = "  inventiveness, imagination, originality, and fluency";
+"Card2View10" = "socioaffective abilities:";
+"Card2View11" = "  perceptiveness, communication (empathy and tact), and influence;";
+"Card2View12" = "sensorimotor abilities:";
+"Card2View13" = "  sensitivity (the senses), strength, endurance, coordination and others.";
+
+// MARK: MIView
+
+"Card3View1" = "Theory of Multiple Intelligences";
+"Card3View2" = "Howard Gardner since 1988";
+"Card3View3" = "The concept of multiple intelligences is a theory proposed by Harvard psychologist Howard Gardner. When you hear the word intelligence, the concept of IQ testing may immediately come to mind. ";
+"Card3View4" = "Intelligence is often defined as our intellectual potential; something we are born with, something that can be measured, and a capacity that is difficult to change.";
+"Card3View5" = "In recent years, however, other views of intelligence have emerged, including Gardner's suggestion that multiple different types of intelligence may exist. ";
+"Card3View6" = "The eight intelligences according to Gardner are:";
+"Card3View7" = "Visual-spatial";
+"Card3View8" = "Linguistic-verbal";
+"Card3View9" = "Logical-mathematical";
+"Card3View10" = "Body-kinesthetic";
+"Card3View11" = "Musical";
+"Card3View12" = "Interpersonal";
+"Card3View13" = "Intrapersonal";
+"Card3View14" = "Naturalistic";
+
+// MARK: Characteristics
+"CharacView1" = "Characteristics of Giftedness";
+"CharacView2" = "Introduction";
+"CharacView3" = "Gifted and talented students are classified as exceptional students because they require some assistance or modifications to the standard school environment, instructional tactics, or curriculum in order to meet their educational needs—their academic goals. It is critical to recognise that not all gifted and talented students are the same. Their requirements differ depending on the individual and the school situation.";
+"CharacView4" = "To describe the concept of giftedness, theorists employ a variety of frameworks and models. Furthermore, there is no universally acknowledged definition of giftedness. These disparate and even conflicting initiatives have complicated the advocacy for and understanding of gifted and talented learners. Fortunately, there is a lot more consensus on the qualities and essential features of talented learners.";
+"CharacView5" = "Traits of Giftedness";
+"CharacView6" = "There are ten categories that represent the main characteristics of gifted learners. These were dubbed Traits, Aptitudes, and Behaviours (TABs).";
+"CharacView7" = "See Traits";
+"CharacView8" = "Dabrowski's Overexcitabilities";
+"CharacView9" = "Dabrowski's studies can help us understand the intrinsic qualities of talented learners and how they differ from other learners. Dabrowski, a Polish psychiatrist and psychologist, was particularly curious about why some people's personalities matured to the point where they would give up everything to help others, while others never progressed past being self-serving.";
+"CharacView10" = "He developed the Theory of Positive Disintegration, which states that in order to achieve very high levels of personality development, one must first break down the self and then rebuild it. The idea contains multiple components and explains how gifted people build their personalities. One of the components is concerned with overexcitabilities. Overexcitabilities help to explain why gifted people perceive things more strongly than others; their worldview is distinct.";
+"CharacView11" = "Dabrowski identified five modes of expression for brilliant people: psychomotor, sensual, intellectual, imaginational, and emotional. Although this notion is frequently debated in the area, almost no empirical study has been undertaken, and proof of these intensities among brilliant children is frequently anecdotal.";
+"CharacView12" = "See Details";
+"CharacView13" = "Tips";
+"CharacView14" = "1. Gifted students differ from others in ways that influence how they perceive the world, how they learn, and what their requirements are in the classroom.";
+"CharacView15" = "2. Understanding gifted learners' traits, aptitudes, behaviours, and intensities can help educators and parents support their growth. These traits disprove the idea that everyone is gifted because most students don't have them or think like them.";
+"CharacView16" = "3. The phrase gift relates to people's strengths, whereas gifted and talented is a professional term that describes learners who have characteristics and intensities that cause them to learn and experience the world differently than others.";
+"CharacView17" = "4. Gifted and gifted students exhibit asynchronous physical, cognitive, social, and emotional development. Our schools and society are structured for learners with more even development in these areas, therefore gifted learners' asynchronous development causes problems in various areas of their lives.";
+"CharacView18" = "5. G&T students vary greatly. Understanding a student's giftedness helps provide appropriate educational and social/emotional support. Cognitive ability determines students' special education needs. The more advanced or handicapped a pupil is cognitive, the more they need to modify the instructional content, setting, and tactics.";
+"CharacView19" = "6. Gifted and talented learners have common features, aptitudes, and behaviours. The qualities' expression depends on learners' giftedness, interest, cultural background, language, and economic possibilities.";
+"CharacView20" = "7. Gifted students are intense and sensitive. Dabrowski's overexcitabilities explain why gifted learners perceive the world more intensely.";
+"CharacView21" = "8. Gifted students require a variety of acquaintances who share their developmental levels and interests.";
+
+// MARK: CardView1.4View
+
+"CardV1_4Text1" = "CHALLENGES";
+"CardV1_4Text2" = "Underachievement";
+"CardV1_4Text3" = "Twice-Exceptional";
+"CardV1_4Text4" = "Perfectionism";
+"CardV1_4Text5" = "Asynchrony";
+"CardV1_4Text6" = "Social Emotional Needs";
+
+// MARK: UnderachievementView
+
+"UnderachiText1" = "UNDERACHIEVEMENT";
+"UnderachiText2" = "A broad definition of underachievement is a 'difference between children's school performance and their abilities,' however that broad definition simply indicates that problems exist. Not all underachievement is caused by psychological protective habits, which is the topic of this chapter.";
+"UnderachiText3" = "Defensive Characteristics of Underachievers";
+"UnderachiText4" = "Defensive characteristics of underachievers are behaviors or attitudes that some individuals may adopt to protect themselves from the negative consequences of their underachievement.";
+"UnderachiText5" = "Disorganization, uneven skills, lost, unfinished, or carelessly completed homework, missing assignments, a barrage of excuses including forgetfulness, blame placed on teachers, parents, or peers, and, most frequently, the description of school as boring are among the surface characteristics that parents and teachers typically report. School behavioral issues for some underachievers include class clowning, arguing with teachers, and even bullying other pupils. While some underachievers complain of isolation and victimization, others prioritize their social life over schoolwork and have a large number of 'cool' friends, the majority of whom are also underachievers.";
+"UnderachiText6" = "School Origins of Underachievement";
+"UnderachiText7" = "Underachievement is just too complex a problem to pin down to a single cause. School environments can and can lead to patterns of psychological underachievement.";
+"UnderachiText8" = "CURRICULUM";
+"UnderachiText9" = "Gifted students need a varied curriculum to learn effectively. Material that is too easy or too difficult can undermine their sense of control and self-efficacy. A curriculum that provides opportunities for achievement through hard work fosters intrinsic and extrinsic success. Intrinsic rewards include a passion for learning, while extrinsic incentives include good grades and praise from teachers and parents. When students put forth little effort, they should be dissatisfied with their learning experiences, grades, and recognition from teachers and parents.";
+"UnderachiText10" = "THE TEACHER’S VITAL ROLE";
+"UnderachiText11" = "While adapting the curriculum to students' abilities is a crucial responsibility of teachers, it is not their only one. Teachers are often blamed for the beginnings of underachievement, despite playing a significant role in both the initiation and reversal of underachievement. Students' opinions of their teachers can vary widely within a single class. A perceptive teacher can ally with a student who has lost confidence in the classroom. Teachers are not naturally drawn to students who do not complete assignments or show a lack of interest in learning. It may be surprising to students that their disinterest can turn off their teachers. Teachers of gifted students can view disinterest as an opportunity to engage the very students who are disengaged.";
+"UnderachiText12" = "PEER PRESSURE";
+"UnderachiText13" = "Peer pressure to be popular becomes a priority by middle grades, with popularity ranking highest among students' worries, tied with terrorism. Worries about being popular with the opposite sex increased with each grade in school. Students feel conflicted about working hard in school for fear of being labeled as unpopular. Some students deliberately do not turn in homework or refuse to study for tests because they prefer average grades. Underachieving to be 'cool' can become a habit, destroying self-efficacy. Once established, it can be difficult for the student to believe they can accomplish what they are capable of.";
+"UnderachiText14" = "PARENT ADVOCACY GONE AWRY";
+"UnderachiText15" = "Parents should collaborate with teachers to meet the needs of their gifted children, as they may have insights into their abilities. However, overzealous parental advocacy can lead to underachievement if it disrespects the teacher. If students believe they can argue their way out of unpleasant tasks, they may abuse their power and convince parents that certain subjects are irrelevant. This can result in students gaining self-efficacy through manipulation instead of completing tasks.";
+"UnderachiText16" = "THE SUBTLE POWER OF COMPETITION";
+"UnderachiText17" = "Competition can be motivating to gifted students who succeed but demoralizing to those who are not resilient. Students compare themselves to others regardless of whether activities are competitive or not. Recognizing the impact of competition can help students cope with their own competitive feelings and improve their performance. Discussing competition in the classroom can heighten awareness in students who may not understand why they are not functioning well.";
+"UnderachiText18" = "Family Origins of Underachievement";
+"UnderachiText19" = "There must be no genes for underachievement. Thus, home surroundings must contribute to the psychological aspects of underachievement syndrome. Parenting and sibling conflicts are among the family origins.";
+"UnderachiText20" = "OVERPOWERMENT";
+"UnderachiText21" = "Gifted children's advanced vocabulary and insights often attract excessive praise and attention, which can lead to a sense of empowerment and dependence on continuous attention. Parents may consult with their gifted children and give them decision-making power early on, assuming that they will become better decision-makers with practice. However, children may become confused by the expectation to think for themselves and may feel the need to disagree with their parents to make independent choices. This overempowerment may lead to frequent arguing and a need to prove intelligence through argumentation. Gifted children's self-concept is often tied closely to their intelligence, and high motivation is linked to achievement. However, if gifted children find themselves in a classroom where they do not excel, they may view certain tasks as irrelevant or useless and avoid them. They may also feel powerless to excel and avoid assignments or make excuses for not completing work.";
+"UnderachiText22" = "BIRTH ORDER & SIBLING ISSUES";
+"UnderachiText23" = "Birth order has been studied extensively for its impact on achievement, with consistent findings showing that oldest children are more likely to be high achievers while later-born children are often more social and creative. However, first and only children are also more likely to be gifted underachievers, possibly due to feelings of displacement and attention deprivation caused by the arrival of younger siblings. This extreme form of sibling rivalry is referred to as 'dethronement' and can cause a formerly positive child to become negative, aggressive, or depressed. Traumatic experiences like divorce or death in the family can also cause dethroning characteristics. Classroom environments can also contribute to feelings of displacement and underachievement.";
+"UnderachiText24" = "In some cases, birth order combinations, such as same-gender siblings close in age, can result in one child becoming an achiever and the other an underachiever. Labels used to describe children in the family are often reciprocal and set expectations. Families may refer to their children as the 'scholar,' 'social one,' 'athlete,' or 'creative one,' with all but the scholar underachieving academically and the scholar underachieving socially. While individual temperaments and abilities are important, competition for attention within the family also plays a crucial role in shaping children's developmental direction.";
+"UnderachiText25" = "CROSS-GENERATIONAL ALLIANCES & CONFLICT";
+"UnderachiText26" = "Parents' subtle competition to be the favorite or best parent can create alliances with children that lead to underachievement. The traditional 'united front' approach to parenting has been replaced by a priority for open communication, which can cause problems for children with multiple caregivers. Only half of the children in the country live in traditional two-parent families, with grandparents, aunts, or uncles often helping with parenting.";
+"UnderachiText27" = "Consistency and a united approach from the adults who guide children's lives are crucial. Despite differences in parenting styles, children should perceive similar expectations, efforts, and limits. When adults are respectful and consistent with each other, children know what is expected of them and cannot avoid difficult or scary tasks by seeking protection from another adult.";
+"UnderachiText28" = "PARENT RIVALRY";
+"UnderachiText29" = "Parents' concerns about being good parents can lead to competition and rivalry within families. Each parent may see themselves as the 'best' parent based on their own parenting style, but may not see their partner in the same way. This can lead to unsuccessful attempts to change each other and a 'balancing act' approach where one parent becomes more protective while the other becomes more demanding, moving them further apart. This can leave children caught in the middle, uncertain if they can meet one parent's expectations but certain that the other will approve of almost everything.";
+"UnderachiText30" = "When parents have conflicting expectations, children may turn to the other parent who unconditionally supports them and unintentionally teaches them to take the easy way out. This can lead to children avoiding challenges and developing a habit of seeking protection. After divorce, parents may try to win their children's love by overprotecting them or buying them more. The situation becomes more complex with multiple parents, including stepparents, grandparents, and aunts and uncles. Without a united front, parents may fall into ogre and dummy games, where one parent is seen as the tough, demanding one and the other as the easy, supportive one. These roles are not gender-specific.";
+"UnderachiText31" = "TIPS";
+"UnderachiText32" = "Underachievement has multiple definitions and can be caused by home and school environments as well as the child's own issues. Since it can be psychological, psychologists and counselors can help reverse it through therapy and evaluation. Diagnosis codes for underachievers include anxiety, depression, and attention and adjustment disorders. Therapy options include individual, group, and family therapy. Mental health professionals can also educate educators about the psychological underpinnings of underachievement to help students succeed.";
+"UnderachiText33" = "SUGGESTIONS";
+"UnderachiText34" = "1. Identify and recognize gifted underachievers by observing their behaviors, academic progress, and interactions with peers.";
+"UnderachiText35" = "2. Provide challenging and engaging curriculum that aligns with the child's interests and abilities. This can motivate gifted underachievers to achieve their full potential.";
+"UnderachiText36" = "3. Offer individualized instruction and support to address the unique needs of gifted underachievers, such as mentoring, tutoring, and counseling.";
+"UnderachiText37" = "4. Encourage a growth mindset by fostering a positive attitude towards learning and emphasizing the importance of effort and perseverance.";
+"UnderachiText38" = "5. Foster a supportive and inclusive classroom environment where gifted underachievers feel valued and respected. This can include peer collaboration and opportunities for leadership roles.";
+"UnderachiText39" = "6. Communicate regularly with parents to share progress and discuss strategies to support the child's academic and emotional growth.";
+"UnderachiText40" = "7. Provide opportunities for enrichment and acceleration to challenge and motivate gifted underachievers, such as advanced classes, research projects, and competitions.";
+"UnderachiText41" = "8. Lastly, regularly assess and adjust strategies to meet the changing needs of gifted underachievers and ensure that they are progressing towards their full potential.";
+
+// MARK: TwiceexceptionalView
+
+"TWicee1" = "TWICE-EXCEPTIONAL";
+"TWicee2" = "subtypes of TWICE EXCEPTIONALITY";
+"TWicee3" = "GIFTED STUDENTS WITH SpLD";
+"TWicee4" = "Gifted students with specific learning disabilities (SpLD) are often really good at things like understanding and reasoning with words, but they struggle with non-verbal tasks like understanding spatial relationships or processing information quickly. This can make reading, writing, and math really frustrating for them. They may also struggle with low self-esteem and negative experiences at school, which can lead to feelings of depression or acting out. However, some research suggests that they can learn ways to cope with these challenges.";
+"TWicee5" = "GIFTED STUDENTS WITH ADHD";
+"TWicee6" = "Attention Deficit Hyperactivity Disorder (ADHD) affects both attention and behavior, and can cause problems with things like memory and planning. It's hard to diagnose ADHD in students who are also gifted because their hyperactivity can look different than in other students with ADHD. Gifted students with ADHD may be really creative but struggle with paying attention and focusing on tasks. They may have good ideas but have trouble getting started and finishing tasks. They also tend to forget to use strategies that could help them. This can lead to underachievement and dislike of homework. However, these students may do well in school until they face tasks that require a lot of attention.";
+"TWicee7" = "GIFTED STUDENTS WITH ASD";
+"TWicee8" = "Autism Spectrum Disorder (ASD) is a developmental disorder that affects social relationships. Gifted students with ASD are often really good at remembering facts and doing well on tests in subjects like math and language. However, they may struggle socially because they focus on details and following rules, and have a hard time adjusting to social situations. Sometimes people think their success is because of their disorder, but that's not true - they are genuinely talented. Teachers can help these students by using different teaching methods and strategies.";
+"TWicee9" = "What is Twice-Excptional";
+"TWicee10" = "Twice-exceptional learners are students who are both gifted and have a disability. They may be very good at academics, art, or leadership, but also have a disability like a learning disability or Attention Deficit Hyperactivity Disorder (ADHD). To help these students succeed, they need a special education plan that takes into account both their strengths and their weaknesses. This plan should include different ways of teaching, special goals, and strategies to help them learn compensation skills. It's important to develop their gifts and talents and help them achieve their full potential.";
+"TWicee11" = "Twice-exceptional (2e) learners are like other gifted kids in that they're really smart and talented in at least one subject. But they also have special learning difficulties that can make it hard for them to show how smart they are. As a result, they may struggle in school and their special needs can cause problems. It's important for schools and families to understand the unique challenges that 2e learners face so they can support them in the best way possible.";
+
+// MARK: PerfectionismView
+"Perfectionism1" = "PERFECTIONISM";
+"Perfectionism2" = "Perfectionism is one of the challenges that gifted students face because they often set very high expectations for themselves. They may feel like they have to be perfect in everything they do, and any mistake or failure can be very upsetting for them. This can lead to a fear of taking risks or trying new things, which can limit their learning and growth.";
+"Perfectionism3" = "Gifted students may also feel pressure from others to live up to their potential, which can exacerbate their perfectionism. They may feel like they have to meet others' expectations and be the best in everything they do. This can be a heavy burden to bear and can cause stress and anxiety.";
+"Perfectionism4" = " Perfectionism can be especially challenging for gifted students because they may have an advanced understanding of concepts and ideas, and may be able to complete tasks more quickly and efficiently than their peers. This can make them feel like they should always be able to do things perfectly and quickly, which can be an unrealistic expectation.";
+"Perfectionism5" = "Self-Oriented Perfectionism";
+"Perfectionism6" = "Self-oriented perfectionism is a type of perfectionism in which individuals set very high standards for themselves and strive to meet those standards. They may be very critical of themselves and feel like they are never good enough. They may also have a strong fear of failure and believe that any mistake or imperfection is a reflection of their worth as a person.";
+"Perfectionism7" = "Self-oriented perfectionists often have an all-or-nothing mindset, believing that they must achieve perfection in order to be successful. They may set unattainable goals and feel like they are constantly falling short. This can lead to feelings of anxiety, stress, and burnout.";
+"Perfectionism8" = "elf-oriented perfectionism can also lead to procrastination or avoidance of tasks, as individuals may feel like they need more time to make things perfect. This can interfere with productivity and cause frustration.";
+"Perfectionism9" = "While striving for excellence and setting high standards can be beneficial, self-oriented perfectionism can be harmful if it leads to excessive self-criticism, anxiety, and a fear of failure. It's important for individuals with self-oriented perfectionism to develop a healthy balance between striving for excellence and accepting imperfection, and to seek support if perfectionism is causing distress or interfering with daily life.";
+"Perfectionism10" = "Other-Oriented Perfectionism";
+"Perfectionism11" = "Other-oriented perfectionism is a type of perfectionism in which individuals set high standards for others and expect them to meet those standards. They may be critical of others and have difficulty accepting imperfections in those around them.";
+"Perfectionism12" = "Other-oriented perfectionists may have a strong desire for control and may feel like they need to take charge in order to ensure that things are done correctly. They may feel frustrated or angry when others do not meet their expectations, and may have difficulty delegating tasks to others.";
+"Perfectionism13" = "Other-oriented perfectionism can also lead to conflict in relationships, as individuals may have unrealistic expectations of others and be overly critical or demanding. This can cause strain in romantic relationships, friendships, and work relationships.";
+"Perfectionism14" = "While other-oriented perfectionism can be harmful if it leads to excessive criticism or conflict in relationships, setting high standards and expecting others to meet them can also be beneficial in certain situations. It's important for individuals with other-oriented perfectionism to recognize when their expectations may be unrealistic or causing harm, and to develop a healthy balance between setting high standards and accepting imperfection in those around them.";
+"Perfectionism15" = "Socially-Prescribed Perfectionism";
+"Perfectionism16" = "Socially-prescribed perfectionism is a type of perfectionism in which individuals feel pressure from others to meet high standards. They may feel like they have to be perfect in order to gain acceptance or avoid criticism.";
+"Perfectionism17" = "Socially-prescribed perfectionists may feel like they are constantly being judged by others, and may believe that their worth as a person is tied to their achievements or external validation from others. They may also have a strong fear of failure and may avoid taking risks or trying new things for fear of not meeting others' expectations.";
+"Perfectionism18" = "Socially-prescribed perfectionism can lead to feelings of anxiety, stress, and burnout, as individuals may feel like they are constantly under pressure to meet others' expectations. It can also interfere with relationships, as individuals may feel like they have to present a perfect image to others and may struggle with vulnerability or authenticity.";
+
+// MARK: AsynchronyView
+"Asynchrony1" = "ASYNCHRONY";
+"Asynchrony2" = "Asynchrony of gifted students refers to the difference between their advanced intellectual abilities and their age-appropriate social, emotional, and physical development. Gifted individuals may have cognitive abilities that are significantly beyond their age, while their social and emotional development may be more in line with their peers. This can create a sense of being out of sync with others their age and can lead to challenges in social situations or with developing peer relationships. Asynchrony can also manifest in physical development, with gifted children being either advanced or delayed in certain areas. It's important for educators and parents to recognize and support the asynchronous development of gifted students.";
+"Asynchrony3" = "There is no one single cause of asynchrony in gifted children, as it can be influenced by a variety of factors.";
+"Asynchrony4" = "One factor that may contribute to asynchrony is the nature of giftedness itself. Gifted individuals may have abilities that are significantly beyond their age, which can create a gap between their intellectual capabilities and their social and emotional development.";
+"Asynchrony5" = "Another factor may be the environment in which gifted children are raised. Gifted children may have different experiences and opportunities than their peers, which can impact their development in various areas. For example, a child who is highly gifted in a certain subject area may spend more time focused on that area, which could lead to delays in other areas of development.";
+"Asynchrony6" = "Asynchrony can also be influenced by personality factors, such as introversion or extroversion. A child who is highly introverted may struggle with social interactions, even if they are intellectually advanced.";
+"Asynchrony7" = "It's important to note that asynchrony is a common characteristic of giftedness and is not necessarily a problem or something that needs to be 'fixed.' However, it is important for educators and parents to recognize and support the unique developmental needs of gifted children to help them thrive in all areas of their development.";
+"Asynchrony8" = "How To support";
+"Asynchrony9" = "1. Provide opportunities for social interaction: Encourage gifted children to participate in social activities with peers who share their interests, such as clubs, groups, or classes. This can help them develop social skills and build relationships with peers who understand and appreciate their abilities.";
+"Asynchrony10" = "2. Foster emotional intelligence: Help gifted children learn to recognize and express their own emotions and understand the emotions of others. This can include teaching empathy and perspective-taking skills.";
+"Asynchrony11" = "3. Encourage independence: Allow gifted children to take on responsibilities and make decisions on their own. This can help them build self-confidence and develop problem-solving skills.";
+"Asynchrony12" = "4. Offer support and guidance: Provide emotional support and guidance when needed, such as during times of stress or when dealing with social or emotional challenges. This can help gifted children feel understood and valued.";
+"Asynchrony13" = "5. Emphasize strengths and interests: Focus on gifted children's strengths and interests, and help them develop these areas. This can help them build self-esteem and feel more confident in social situations.";
+"Asynchrony14" = "6. Provide opportunities for challenge and growth: Offer opportunities for gifted children to challenge themselves and grow in areas of social and emotional development. For example, this could include volunteering, public speaking, or participating in leadership activities.";
+"Asynchrony14" = "Cause";
+
+// MARK: SocialIsolationView
+"SocialIsolation1" = "SOCIAL EMOTIONAL NEEDS";
+"SocialIsolation2" = "Gifted children have unique social and emotional needs that may differ from those of their peers. They may experience asynchrony, which is a discrepancy between their intellectual abilities and their age-appropriate social and emotional development. This can lead to challenges in social situations and difficulty forming relationships with peers.";
+"SocialIsolation3" = "Gifted children may also have a heightened sensitivity to the world around them, which can make them more aware of the injustices and inequalities in society. This can lead to a strong sense of justice and a desire to make a positive impact in the world.";
+"SocialIsolation4" = "Gifted children may also experience intense emotions and have a strong need for autonomy and independence. They may be highly self-critical and have a fear of failure, which can lead to anxiety and stress.";
+"SocialIsolation5" = "It's important for parents and educators to recognize and support gifted children's social and emotional needs. This can include providing opportunities for social interaction with like-minded peers, fostering emotional intelligence, offering emotional support and guidance, and encouraging independence and autonomy. By meeting these needs, gifted children can develop healthy social and emotional skills and thrive both academically and personally.";
+"SocialIsolation6" = "How To Support";
+"SocialIsolation7" = "1. Provide opportunities for social interaction: Encourage gifted students to participate in social activities with peers who share their interests, such as clubs, groups, or classes. This can help them develop social skills and build relationships with peers who understand and appreciate their abilities.";
+"SocialIsolation8" = "2. Foster emotional intelligence: Incorporate lessons and activities that help gifted students learn to recognize and express their own emotions and understand the emotions of others. This can include teaching empathy and perspective-taking skills.";
+"SocialIsolation9" = "3. Offer support and guidance: Provide emotional support and guidance when needed, such as during times of stress or when dealing with social or emotional challenges. This can help gifted students feel understood and valued.";
+"SocialIsolation10" = "4. Emphasize strengths and interests: Focus on gifted students' strengths and interests, and help them develop these areas. This can help them build self-esteem and feel more confident in social situations.";
+"SocialIsolation11" = "5. Provide opportunities for challenge and growth: Offer opportunities for gifted students to challenge themselves and grow in areas of social and emotional development. For example, this could include volunteering, public speaking, or participating in leadership activities.";
+"SocialIsolation12" = "6. Differentiate instruction: Modify instruction to meet the unique needs of gifted students, including their social and emotional needs. This can include providing opportunities for independent study, incorporating creative projects, or providing challenging assignments that allow for personal growth and development.";
+
+// MARK: IDENTIFCATIONS
+"identify1" = "1. Advanced vocabulary for this or her age or grade level.";
+"identify2" = "2. The ability to make generalizations about events, people, and things.";
+"identify3" = "3. A large storehouse of information about a specific topic.";
+"identify4" = "4. The ability to grasp underlying principles.";
+"identify5" = "5. Insight into cause and effect relationship.";
+"identify6" = "6. An understanding of complicated material through analytical reasoning ability.";
+"identify7" = "7. A large storehouse of information about a variety of topics.";
+"identify8" = "8. The ability to deal with abstractions.";
+"identify9" = "9. Recall of factual information.";
+"identify10" = "10. Keen and insightful observation.";
+"identify11" = "11. The ability to transfer learning from one situation to another.";
+"identify12" = "1. Imaginative thinking ability.";
+"identify13" = "2. A sense of humour.";
+"identify14" = "3. The ability to come up with unusual, unique, or clever responses.";
+"identify15" = "4. An adventurous spirit or a willingness to take risks.";
+"identify16" = "5. The ability to generate a large number of ideas or solutions to problems or questions.";
+"identify17" = "6. A tendency to see humour in situations that may not appear to be humorous to others.";
+"identify18" = "7. The ability to adapt, improve, or modify objects or ideas.";
+"identify19" = "8. Intellectual playfulness, willingness to fantasize and manipulate ideas.";
+"identify20" = "9. A non-conforming attitude does not fear being different.";
+"identify21" = "1. Like to participate in art activities; is eager to visually express ideas.";
+"identify22" = "2. Incorporates a large number of elements into artwork; varies the subject and content of the artwork.";
+"identify23" = "3. Arrives at unique, unconventional solutions to artistic problems as opposed to traditional, conventional ones.";
+"identify24" = "4. Concentrates for long periods of time on art projects.";
+"identify25" = "5. Willingly tries out different media; experiments with a variety of materials and techniques.";
+"identify26" = "6. Tends to select art media for free activity or classroom projects.";
+"identify27" = "7. Is particularly sensitive to the environment; is a keen observer – sees the unusual, what may be overlooked by others.";
+"identify28" = "8. Produces balance and order in the artwork.";
+"identify29" = "9. Is critical of his or her own work; sets high standards of quality; often reworks creation in order to refine it.";
+"identify30" = "10. Shows an interest in other students’ work – spends time studying and discussing their work.";
+"identify31" = "11. Elaborates on ideas from other people – uses them as a “jumping-off point” as opposed to copying them.";
+"identify32" = "1. Shows a sustained interest in music – seeks out opportunities to hear and create music.";
+"identify33" = "2. Perceives fine differences in musical tone (pitch, loudness, timbre, duration).";
+"identify34" = "3. Easily remembers melodies and can produce them accurately.";
+"identify35" = "4. Eagerly participates in musical activities.";
+"identify36" = "5. Plays a musical instrument (or indicates a strong desire to).";
+"identify37" = "6. Is sensitive to the rhythm of music; responds to changes in the tempo of music through body movements.";
+"identify38" = "7. Is aware of and can identify a variety of sounds heard at a given moment – is sensitive to “background” noises, to chords that accompany a melody, to the different sounds of singers or instrumentalists in a performance.";
+"identify39" = "To Educators";
+"identify40" = "Dear educators,";
+"identify41" = "We would like to inform you that while the rating scale for behavioral characteristics for superior students, provided by our app, can be helpful in getting a general idea of a student's strengths and weaknesses, it is not a very precise tool to identify giftedness. Giftedness is a complex and multifaceted concept that cannot be fully captured by any single screening tool. Therefore, the rating scale provided by our app is only intended for the very initial stage of identification of giftedness.";
+"identify42" = "We encourage our users to consult with professionals who specialize in gifted education for a more accurate and comprehensive evaluation of their child's abilities. Please keep in mind that there are many factors that can affect the accuracy of the results obtained from our screening tool, including the test conditions, the professionalism of the educators, personal understanding, and other individual factors.";
+"identify43" = "We hope that this information provides a better understanding of the limitations and potential inaccuracies of our screening tool. We remain committed to providing our users with the best possible resources for identifying and supporting gifted students.";
+"identify44" = "Instructions";
+"identify45" = "Welcome to our screening tool! This tool is designed to help you obtain teacher estimates of a student's characteristics in various areas, including Learning, Motivation, Creativity, Leadership, Art, Music, Drama, Communication, and Planning. These characteristics are derived from the research literature on gifted and creative individuals.";
+"identify46" = "It's essential to note that there can be significant individual differences within this population, and therefore, the profiles are likely to vary. To use the tool, please consider each item in the scales separately and reflect on the presence or absence of each characteristic you have observed in the student.";
+"identify47" = "Since the ten dimensions of the instrument represent relatively different sets of behaviors, the scores obtained from the separate scales should not be summed to yield a total score. Educators should know the student for at least six months to ensure accuracy.";
+"identify48" = "To use the tool, please read each item in each scale and choose the option that corresponds to the frequency to which you have observed the behavior. Each item should be read with the beginning phrase, 'The student demonstrates' or 'The student...?'. Once you have completed all the items, click submit to get a result. You can keep the screenshot after you finish.";
+"identify49" = "Thank you for using our screening tool, and we hope that it provides helpful insights into the characteristics of your students.";
+"identify50" = "1. The ability to concentrate intently on a topic for a long period of time";
+"identify51" = "2. Behaviour that requires little direction from teachers.";
+"identify52" = "3. Sustained interest in certain topics or problems.";
+"identify53" = "4. Tenacity for finding out information on topics of interest.";
+"identify54" = "5. Persistent work on tasks even when setbacks occur.";
+"identify55" = "6. A preference for situations in which he or she can take personal responsibility for the outcomes of his or her efforts.";
+"identify56" = "7. Follow-through behaviour when interested in a topic or problem.";
+"identify57" = "8. Intense involvement in certain topics or problems.";
+"identify58" = "9. A commitment to long-term projects when interested in a topic.";
+"identify59" = "10. Persistence when pursuing goals.";
+"identify60" = "11. Little need for external motivation to follow through in work that is initially exciting.";
+"identify61" = "1. Responsible behaviour can be counted on to follow through on activities/projects.";
+"identify62" = "2. A tendency to be respected by classmates.";
+"identify63" = "3. The ability to articulate ideas and communicate well with others.";
+"identify64" = "4. Self-confidence when interacting with age peers.";
+"identify65" = "5. The ability to organize and bring structure to things, people, and situations.";
+"identify66" = "6. Cooperative behavior when working with others.";
+"identify67" = "7. A tendency to direct an activity when he or she is involved with others.";
+"identify68" = "1. Volunteers to participate in classroom plays or skits.";
+"identify69" = "2. Easily tells a story or gives an account of some experience.";
+"identify70" = "3. Effectively uses gestures and facial expressions to communicate feelings.";
+"identify71" = "4. Is adept at role-playing, improvising, and acting out situations “ on the spot.”";
+"identify72" = "5. Can readily identify himself or herself with moods and motivations of characters.";
+"identify73" = "6. Handles body with ease and poise for his or her particular age.";
+"identify74" = "7. Creates original plays or makes up plays from stories.";
+"identify75" = "8. Commands and holds the attention of a group when speaking.";
+"identify76" = "9. Is able to evoke emotional responses from listeners – can get people to laugh, frown, feel tense, etc.";
+"identify77" = "10. Can imitate others – is able to mimic the way people speak, walk, and gesture.";
+"identify78" = "1. Speaks and writes directly and to the point.";
+"identify79" = "2. Modifies and adjusts expression of ideas for maximum reception.";
+"identify80" = "3. Is able to revise and edit in a way which is concise, yet retains essential ideas.";
+"identify81" = "4. Explains things precisely and clearly.”";
+"identify82" = "5. Uses descriptive words to add color, emotion, and beauty.";
+"identify83" = "6. Expresses thoughts and needs clearly and concisely.";
+"identify84" = "7. Can find various ways of expressing ideas so others will understand.";
+"identify85" = "8. Can describe things in a few very appropriate words.";
+"identify86" = "9. Is able to express fine shades of meaning by using a large stock of synonyms.";
+"identify87" = "10. Is able to express ideas in a variety of alternate ways.";
+"identify88" = "11.  Knows and can use many words closely related in meaning.";
+"identify89" = "1. Determines what information or resources are necessary for accomplishing a task.";
+"identify90" = "2. Grasps the relationship of individual steps to a whole process.";
+"identify91" = "3. Allows time to execute all steps involved in a process.";
+"identify92" = "4. Foresees consequences or effects of action.";
+"identify93" = "5. Organizes his or her work well.";
+"identify94" = "6. Takes into account the details necessary to accomplish a goal.";
+"identify95" = "7. Is good at games of strategy where it is necessary to anticipate several moves ahead.";
+"identify96" = "8. Recognizes the various alternative methods for accomplishing a goal.";
+"identify97" = "9. Can pinpoint where areas of difficulty might arise in a procedure or activity.";
+"identify98" = "10. Arranges the steps of a project in a sensible order or time sequence.";
+"identify99" = "11. Is good at breaking down an activity into step-by-step procedures.";
+"identify101" = "12. Establishes priorities when organizing activities.";
+"identify102" = "13. Shows awareness of limitations relating to time, space, materials, and abilities when working on group or individual projects.";
+"identify103" = "14. Can provide details that contribute to the development of a plan or procedure.";
+"identify104" = "15. Sees alternative ways to distribute work or assign people to accomplish a task.";
+"identify105" = "1. Use voice expressively to convey or enhance meaning.";
+"identify106" = "2. Conveys information non-verbally through gestures, facial expressions, and “ body language.”";
+"identify107" = "3. Is an interesting storyteller.";
+"identify108" = "4. Uses colorful and imaginative figures of speech such as puns and analogies.”";
+"identify109" = "Submit";
+"identify110" = "Learning Characteristics";
+"identify112" = "Creativity Characteristics";
+"identify113" = "Artistic Characteristics";
+"identify114" = "Musical Characteristics";
+"identify115" = "Motivation Characteristics";
+"identify116" = "Leadership Characteristics";
+"identify117" = "Dramatics Characteristics";
+"identify118" = "Communication (precision) Characteristics";
+"identify119" = "Planning Characteristics";
+"identify120" = "Communication (expressiveness) Characteristics";
+"identify121" = "Never";
+"identify122" = "Rarely";
+"identify123" = "Sometimes";
+"identify124" = "Often";
+"identify125" = "Very often";
+"identify126" = "Every day";
+"identify1" = "1. Show curiosity towards new things or unfamiliar environments.";
+"identify1" = "2. Engage in activities that involve investigating or experimenting with objects, ideas or situations.";
+"identify1" = "3. Try to find logical explanations for unrealistic or supernatural things they observe or hear.";
+"identify1" = "4. Use reasoning to solve problems or make decisions.";
+"identify1" = "5. Ask questions to better understand a topic or situation.";
+"identify1" = "6. Well accept mistakes made by himself/ herself.";
+"identify1" = "7. Can face challenges to assumptions or statements made by himself/ herself.";
+"identify1" = "8. Prefer to learn from hands-on experiences or experiments rather than just being told something.";
+"identify1" = "9. Use evidence from their own observations or experiences to support their ideas or opinions.";
