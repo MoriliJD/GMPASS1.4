@@ -30,7 +30,7 @@ struct CardHomeView: View {
                         Rectangle()
                             .foregroundColor(.white)
                         ZStack {
-                            Image("CPIMG0")
+                            Image("CPIMG3")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipped()
@@ -178,7 +178,7 @@ struct CardHomeView: View {
                         Rectangle()
                             .foregroundColor(.white)
                         ZStack{
-                            Image("CPIMG3")
+                            Image("CPIMG0")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipped()

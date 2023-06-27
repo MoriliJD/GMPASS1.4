@@ -12,15 +12,15 @@ struct ScientificView: View {
     @State private var showResults = false
     @State private var resultRange: Int = 0
     let questions = [
-            ("1. Show curiosity towards new things or unfamiliar environments.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("2. Engage in activities that involve investigating or experimenting with objects, ideas or situations.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("3. Try to find logical explanations for unrealistic or supernatural things they observe or hear.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("4. Use reasoning to solve problems or make decisions.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("5. Ask questions to better understand a topic or situation.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("6. Well accept mistakes made by himself/ herself.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("7. Can face challenges to assumptions or statements made by himself/ herself.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("8. Prefer to learn from hands-on experiences or experiments rather than just being told something.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("9. Use evidence from their own observations or experiences to support their ideas or opinions.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"])
+            ("1. 对新事物或不熟悉的环境表现出好奇心；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("2. 愿意参与包含对物体、想法或情况进行调查或实验的活动；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("3. 尝试去用科学和逻辑去解释听到或看到的不切实际或者超自然现象；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("4. 使用推理来解决问题或做出决定；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("5. 展示出提出问题以更好地理解主题或情况的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("6. 能够很好的接受自己的理论或者想法出先错误；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("7. 能够很好的面对自己的理论和假设被他人质疑；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("8. 更喜欢从实践经验或实验中学习，而不是仅仅靠被告知或者书本上的一些东西；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("9. 使用他们自己的观察或经验中的证据来支持他们的想法或意见；", ["从未", "极少", "有时", "时常", "频繁", "一直"])
         ]
 
     var body: some View {
@@ -28,16 +28,17 @@ struct ScientificView: View {
             ScrollView {
                 VStack {
                     // Leave space for pictures
-                    Image("your_image")
+                    Image("Tscientific")
                         .resizable()
                         .scaledToFit()
+                        .cornerRadius(10)
                 
                     
                     ForEach(0..<questions.count) { index in
                         QuestionView(questionText: questions[index].0, answerOptions: questions[index].1, selectedIndex: $selectedAnswers[index])
                     }
                     
-                    Button("Submit") {
+                    Button("提交") {
                         calculateResults()
                         showResults = true
                     }
@@ -48,7 +49,7 @@ struct ScientificView: View {
                 }
                 .padding()
                 .background(Color.white)
-                .navigationTitle("Scientific Characteristics (Scientific Spirit)")
+                .navigationTitle("科学特质（科学精神）")
                 .fullScreenCover(isPresented: $showResults) {
                     ResultView(resultRange: resultRange, restart: restartScreening)
                 }
@@ -104,7 +105,7 @@ struct Result11View: View {
                 Text("Explanation for range above 4")
             }
             
-            Button("Restart Screening") {
+            Button("重新测试") {
                 restart()
             }
             .padding()
@@ -112,7 +113,7 @@ struct Result11View: View {
             .foregroundColor(.white)
             .cornerRadius(8)
             
-            Button("Save Screenshot") {
+            Button("保存结果") {
                 showShareSheet = true
             }
             .padding()

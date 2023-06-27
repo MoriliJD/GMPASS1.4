@@ -12,17 +12,17 @@ struct ArtisticChara: View {
     @State private var showResults = false
     @State private var resultRange: Int = 0
     let questions = [
-            ("1. Like to participate in art activities; is eager to visually express ideas.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("2. Incorporates a large number of elements into artwork; varies the subject and content of the artwork.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("3. Arrives at unique, unconventional solutions to artistic problems as opposed to traditional, conventional ones.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("4. Concentrates for long periods of time on art projects.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("5. Willingly tries out different media; experiments with a variety of materials and techniques.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("6. Tends to select art media for free activity or classroom projects.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("7. Is particularly sensitive to the environment; is a keen observer – sees the unusual, what may be overlooked by others.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("8. Produces balance and order in the artwork.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("9. Is critical of his or her own work; sets high standards of quality; often reworks creation in order to refine it.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("10. Shows an interest in other students’ work – spends time studying and discussing their work.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("11. Elaborates on ideas from other people – uses them as a “jumping-off point” as opposed to copying them.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"])
+            ("1. 展示出参加艺术活动的热情，并且渴望以视觉方式表达想法；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("2. 展示出将大量元素融入到艺术品中以及艺术作品中丰富的注意和内容；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("3. 展示出反传统的、反常规的，对艺术提出独特的解决方案和想法的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("4. 展示出长时间专注于艺术项目的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("5. 展示出愿意尝试不同的媒介，使用各种材料和技术进行实验的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("6. 展示出倾向于选择艺术进行自由活动或课程；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("7. 展示出对环境特别的敏感； 是一位敏锐的观察者——会看到不寻常的事物，以及可能被其他人忽视的事物；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("8. 展示出在艺术品中产生平衡和秩序的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("9. 展示出对自己的工作持批评的态度；设定高质量标准并且经常对创作进行修改以使其完善；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("10. 展示出对其他学生的艺术作品的兴趣——花时间研究和讨论他们的艺术作品；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("11. 展示出能详细阐述其他人的想法的能力——能将他人的作品和想法作为“起点”，而不是复制它们；", ["从未", "极少", "有时", "时常", "频繁", "一直"])
         ]
 
     var body: some View {
@@ -30,16 +30,17 @@ struct ArtisticChara: View {
             ScrollView {
                 VStack {
                     // Leave space for pictures
-                    Image("your_image")
+                    Image("Tart")
                         .resizable()
                         .scaledToFit()
+                        .cornerRadius(10)
                 
                     
                     ForEach(0..<questions.count) { index in
                         QuestionView(questionText: questions[index].0, answerOptions: questions[index].1, selectedIndex: $selectedAnswers[index])
                     }
                     
-                    Button("Submit") {
+                    Button("提交") {
                         calculateResults()
                         showResults = true
                     }
@@ -50,7 +51,7 @@ struct ArtisticChara: View {
                 }
                 .padding()
                 .background(Color.white)
-                .navigationTitle("Artistic Characteristics")
+                .navigationTitle("艺术特质")
                 .fullScreenCover(isPresented: $showResults) {
                     ResultView(resultRange: resultRange, restart: restartScreening)
                 }
@@ -80,7 +81,7 @@ struct Question5View: View {
             Text(questionText)
                 .font(.headline)
             
-            Picker("Frequency", selection: $selectedIndex) {
+            Picker("频率", selection: $selectedIndex) {
                 ForEach(0..<answerOptions.count) { index in
                     Text(answerOptions[index]).tag(index)
                 }
@@ -100,13 +101,21 @@ struct Result5View: View {
         VStack {
             if resultRange == 1 {
                 // Content for result range 1 to 3
-                Text("Explanation for range 1 to 3")
+                Text("感谢您使用 Gimpass 来评估您孩子的艺术特质。 根据结果，我们没有在测试发现超常的艺术特质。")
+                Spacer()
+                Text("请您注意，每个孩子都有独特的优势和才能，Gimpass 只是帮助识别潜在天赋特征的工具，并不能替代专业的鉴定。 如果您想更详细地分析您孩子的能力，您可以寻求专业的鉴定服务。 我们还希望您继续支持和培养孩子的兴趣和能力，无论孩子是否是在这个方面有资优特征。")
+                Spacer()
+                Text("如果您有任何问题或疑虑，请随时与我们联系。 我们会回答您对结果的任何疑问，并提供有关如何支持您孩子持续成长和发展的指导。我们在这里希望能为您和您孩子的教育之旅提供支持。感谢您使用 Gimpass，我们期待着进一步帮助您。")
             } else {
                 // Content for result range above 4
-                Text("Explanation for range above 4")
+                Text("感谢您使用 Gimpass 来评估您孩子的艺术特质。 根据结果，我们发现了艺术方面的资优特质。 请您注意，天赋并不能保证成功，但它表明孩子有在才能和兴趣领域取得高成就的潜力。 为了支持您孩子的成长，我们建议您考虑提供给学生发展创意的平台和机会，为具有创造的的学生提供更包容的环境和对应的挑战和课程。 ")
+                     Spacer()
+                 Text("我们的团队可以回答您对结果及其对您孩子的教育意味着什么的任何疑问。 请记住，Gimpass 仅是一个帮助识别潜在天赋特征的工具，并不能替代专业识别。 如果您有兴趣对您孩子的能力进行更详细的分析，我们建议您寻求专业的鉴定服务。")
+                    Spacer()
+                 Text ("如果您有任何问题或疑虑，请随时与我们联系。 我们随时为您和您孩子的教育之旅提供支持。")
             }
             
-            Button("Restart Screening") {
+            Button("重新测试") {
                 restart()
             }
             .padding()
@@ -114,7 +123,7 @@ struct Result5View: View {
             .foregroundColor(.white)
             .cornerRadius(8)
             
-            Button("Save Screenshot") {
+            Button("保存结果") {
                 showShareSheet = true
             }
             .padding()

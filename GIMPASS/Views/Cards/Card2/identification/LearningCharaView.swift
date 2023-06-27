@@ -13,17 +13,17 @@ struct LearningCharaView: View {
     @State private var showResults = false
     @State private var resultRange: Int = 0
     let questions = [
-            ("1. Advanced vocabulary for this or her age or grade level.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("2. The ability to make generalizations about events, people, and things.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("3. A large storehouse of information about a specific topic.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("4. The ability to grasp underlying principles.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("5. Insight into cause and effect relationship.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("6. An understanding of complicated material through analytical reasoning ability.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("7. A large storehouse of information about a variety of topics.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("8. The ability to deal with abstractions.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("9. Recall of factual information.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("10. Keen and insightful observation.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("11. The ability to transfer learning from one situation to another.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"])
+            ("1. 展示出超过年龄和阶段的词汇；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("2. 展示出对事件、人物和事物进行概括的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("3. 展示出拥有对一定主题的大量相关信息；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("4. 展示出能够掌握事物背后的逻辑和原理的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("5. 展示出洞察因果的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("6. 展示出通过分析推理而理解复杂的内容的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("7. 展示出对多个主题的大量的且广泛的知识储存；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("8. 展示出处理和理解抽象概念的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("9. 展示出优秀的记忆力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("10. 展示出敏锐而富有洞察力的观察力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("11. 展示出在学习上的举一反三的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"])
         ]
 
     var body: some View {
@@ -31,16 +31,17 @@ struct LearningCharaView: View {
             ScrollView {
                 VStack {
                     // Leave space for pictures
-                    Image("your_image")
+                    Image("Tlearning")
                         .resizable()
                         .scaledToFit()
+                        .cornerRadius(10)
                 
                     
                     ForEach(0..<questions.count) { index in
                         QuestionView(questionText: questions[index].0, answerOptions: questions[index].1, selectedIndex: $selectedAnswers[index])
                     }
                     
-                    Button("Submit") {
+                    Button("提交") {
                         calculateResults()
                         showResults = true
                     }
@@ -51,7 +52,7 @@ struct LearningCharaView: View {
                 }
                 .padding()
                 .background(Color.white)
-                .navigationTitle("Learning Characteristics")
+                .navigationTitle("学习特质")
                 .fullScreenCover(isPresented: $showResults) {
                     ResultView(resultRange: resultRange, restart: restartScreening)
                 }
@@ -81,12 +82,12 @@ struct QuestionView: View {
             Text(questionText)
                 .font(.headline)
             
-            Picker("Frequency", selection: $selectedIndex) {
+            Picker("频率：", selection: $selectedIndex) {
                 ForEach(0..<answerOptions.count) { index in
                     Text(answerOptions[index]).tag(index)
                 }
             }
-            .pickerStyle(.navigationLink)
+            .pickerStyle(.segmented)
         }
         .padding(.bottom)
     }
@@ -101,21 +102,21 @@ struct ResultView: View {
         VStack {
             if resultRange == 1 {
                 // Content for result range 1 to 3
-                Text("Thank you for using Gimpass to assess your child's learning abilities. Based on the results, we did not identify exceptional cognitive abilities in any areas measured by the test.")
+                Text("感谢您使用 Gimpass 来评估您孩子的学习能力。 根据结果，我们没有在测试发现超常的学习能力。")
                 Spacer()
-                Text("Please keep in mind that every child has unique strengths and talents, and Gimpass is a tool to help identify potential gifted characteristics and is not a substitute for a professional identification process. We encourage you to seek professional identification services if you want a more detailed analysis of your child's abilities. We also encourage you to continue to support and nurture your child's interests and abilities, whatever they may be.")
+                Text("请您注意，每个孩子都有独特的优势和才能，Gimpass 只是帮助识别潜在天赋特征的工具，并不能替代专业的鉴定。 如果您想更详细地分析您孩子的能力，您可以寻求专业的鉴定服务。 我们还希望您继续支持和培养孩子的兴趣和能力，无论孩子是否是在这个方面有资优特征。")
                 Spacer()
-                Text("If you have any questions or concerns, please do not hesitate to contact us. We are here to answer any questions you may have about the results and provide guidance on how to support your child's continued growth and development, We are here to support you and your child's educational journey.Thank you for using Gimpass, and we look forward to assisting you further.")
+                Text("如果您有任何问题或疑虑，请随时与我们联系。 我们会回答您对结果的任何疑问，并提供有关如何支持您孩子持续成长和发展的指导。我们在这里希望能为您和您孩子的教育之旅提供支持。感谢您使用 Gimpass，我们期待着 进一步帮助您。")
             } else {
                 // Content for result range above 4
-                Text("Thank you for using Gimpass to assess your child's learning abilities. Based on the results, we have identified exceptional cognitive abilities in Learning, which is consistent with the characteristics of giftedness. Please note that giftedness does not guarantee success, but it indicates the potential for high achievement in areas of talent and interest. To support your child's growth, we recommend that you consider enrichment opportunities that will challenge and stimulate their interests and abilities. These may include advanced coursework, independent study, or extracurricular programs.")
+                Text("感谢您使用 Gimpass 来评估您孩子的学习能力。 根据结果，我们发现了学习能力方面的资优特质。 请您注意，天赋并不能保证成功，但它表明孩子有在才能和兴趣领域取得高成就的潜力。 为了支持您孩子的成长，我们建议您考虑提供给学生学习上的挑战和激发他们的兴趣和能力的丰富机会。 这些可能包括有：高级课程、独立学习或课外项目。")
                      Spacer()
-                 Text("Our team is available to answer any questions you may have about the results and what they mean for your child's education. Please keep in mind that Gimpass is a tool to help identify potential gifted characteristics and is not a substitute for a professional identification process. We encourage you to seek out professional identification services if you are interested in a more detailed analysis of your child's abilities.")
+                 Text("我们的团队可以回答您对结果及其对您孩子的教育意味着什么的任何疑问。 请记住，Gimpass 仅是一个帮助识别潜在天赋特征的工具，并不能替代专业识别。 如果您有兴趣对您孩子的能力进行更详细的分析，我们建议您寻求专业的鉴定服务。")
                     Spacer()
-                 Text ("If you have any questions or concerns, please do not hesitate to contact us. We are here to support you and your child's educational journey.")
+                 Text ("如果您有任何问题或疑虑，请随时与我们联系。 我们随时为您和您孩子的教育之旅提供支持。")
             }
             
-            Button("Restart Screening") {
+            Button("重新测试") {
                 restart()
             }
             .padding()
@@ -123,7 +124,7 @@ struct ResultView: View {
             .foregroundColor(.white)
             .cornerRadius(8)
             
-            Button("Save Screenshot") {
+            Button("保存结果") {
                 showShareSheet = true
             }
             .padding()

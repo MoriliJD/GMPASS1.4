@@ -12,10 +12,10 @@ struct Comuni2View: View {
     @State private var showResults = false
     @State private var resultRange: Int = 0
     let questions = [
-            ("1. Use voice expressively to convey or enhance meaning.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("2. Conveys information non-verbally through gestures, facial expressions, and “ body language.”", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("3. Is an interesting storyteller.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("4. Uses colorful and imaginative figures of speech such as puns and analogies.”", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"])
+            ("1. 能够富有表现力地使用声音来传达或增强意思；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("2. 能够通过手势、面部表情和“肢体语言”以非语言方式传达信息；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("3. 是一个能够讲出有趣故事的人；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("4. 能够使用丰富多彩且富有想象力的修辞手法，例如双关语和类比；", ["从未", "极少", "有时", "时常", "频繁", "一直"])
            
         ]
 
@@ -24,16 +24,17 @@ struct Comuni2View: View {
             ScrollView {
                 VStack {
                     // Leave space for pictures
-                    Image("your_image")
+                    Image("Tcommuni2")
                         .resizable()
                         .scaledToFit()
+                        .cornerRadius(10)
                 
                     
                     ForEach(0..<questions.count) { index in
                         QuestionView(questionText: questions[index].0, answerOptions: questions[index].1, selectedIndex: $selectedAnswers[index])
                     }
                     
-                    Button("Submit") {
+                    Button("提交") {
                         calculateResults()
                         showResults = true
                     }
@@ -44,7 +45,7 @@ struct Comuni2View: View {
                 }
                 .padding()
                 .background(Color.white)
-                .navigationTitle("Communication (expressiveness) Characteristics")
+                .navigationTitle("表达能力特质")
                 .fullScreenCover(isPresented: $showResults) {
                     ResultView(resultRange: resultRange, restart: restartScreening)
                 }

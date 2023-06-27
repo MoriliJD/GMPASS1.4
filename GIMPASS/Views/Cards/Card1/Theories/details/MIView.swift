@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MIView: View {
- var inte =  ["Visual-spatial","Linguistic-verbal","Logical-mathematical","Body-kinesthetic","Musical","Interpersonal","Intrapersonal","Naturalistic"]
+ var inte =  ["视觉空间智能","语言智能","逻辑数学智能","身体动觉智能","音乐智能","人际交往智能","内在自省智能","自然智能"]
     var body: some View {
         ScrollView {
             VStack (alignment: .leading){

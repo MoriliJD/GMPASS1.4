@@ -12,16 +12,16 @@ struct DramaticsChara: View {
     @State private var showResults = false
     @State private var resultRange: Int = 0
     let questions = [
-            ("1. Volunteers to participate in classroom plays or skits.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("2. Easily tells a story or gives an account of some experience.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("3. Effectively uses gestures and facial expressions to communicate feelings.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("4. Is adept at role-playing, improvising, and acting out situations “ on the spot.”", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("5. Can readily identify himself or herself with moods and motivations of characters.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("6. Handles body with ease and poise for his or her particular age.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("7. Creates original plays or makes up plays from stories.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("8. Commands and holds the attention of a group when speaking.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("9. Is able to evoke emotional responses from listeners – can get people to laugh, frown, feel tense, etc.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("10. Can imitate others – is able to mimic the way people speak, walk, and gesture.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"])
+            ("1. 自愿参与班级中的戏剧或者小品等戏剧表演活动；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("2. 能够轻松地讲述一个故事或一些经历的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("3. 展示出有效地使用手势和面部表情来传达感情的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("4. 擅长角色扮演、即兴创作和“现场表演”；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("5. 展示出能够识别角色的情绪和动机的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("6. 能够轻松镇定地控制自己的肢体进行表达；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("7. 展示出根据故事或者原创编排戏剧的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("8. 展示出在人群中讲话时抓住观众注意力的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("9. 能够引起听众的情绪反应——可以让人们笑、皱眉、感到紧张等；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("10. 能够模仿他人——能够模仿人们说话、走路和手势的方式；", ["从未", "极少", "有时", "时常", "频繁", "一直"])
         ]
 
     var body: some View {
@@ -29,16 +29,17 @@ struct DramaticsChara: View {
             ScrollView {
                 VStack {
                     // Leave space for pictures
-                    Image("your_image")
+                    Image("Tdrama")
                         .resizable()
                         .scaledToFit()
+                        .cornerRadius(10)
                 
                     
                     ForEach(0..<questions.count) { index in
                         QuestionView(questionText: questions[index].0, answerOptions: questions[index].1, selectedIndex: $selectedAnswers[index])
                     }
                     
-                    Button("Submit") {
+                    Button("提交") {
                         calculateResults()
                         showResults = true
                     }
@@ -49,7 +50,7 @@ struct DramaticsChara: View {
                 }
                 .padding()
                 .background(Color.white)
-                .navigationTitle("Dramatics Characteristics")
+                .navigationTitle("戏剧特质")
                 .fullScreenCover(isPresented: $showResults) {
                     ResultView(resultRange: resultRange, restart: restartScreening)
                 }
@@ -79,7 +80,7 @@ struct Question7View: View {
             Text(questionText)
                 .font(.headline)
             
-            Picker("Frequency", selection: $selectedIndex) {
+            Picker("频率", selection: $selectedIndex) {
                 ForEach(0..<answerOptions.count) { index in
                     Text(answerOptions[index]).tag(index)
                 }
@@ -99,13 +100,21 @@ struct Result7View: View {
         VStack {
             if resultRange == 1 {
                 // Content for result range 1 to 3
-                Text("Explanation for range 1 to 3")
+                Text("感谢您使用 Gimpass 来评估您孩子的领导力特质。 根据结果，我们没有在测试发现超常的领导力特质。")
+                Spacer()
+                Text("请您注意，每个孩子都有独特的优势和才能，Gimpass 只是帮助识别潜在天赋特征的工具，并不能替代专业的鉴定。 如果您想更详细地分析您孩子的能力，您可以寻求专业的鉴定服务。 我们还希望您继续支持和培养孩子的兴趣和能力，无论孩子是否是在这个方面有资优特征。")
+                Spacer()
+                Text("如果您有任何问题或疑虑，请随时与我们联系。 我们会回答您对结果的任何疑问，并提供有关如何支持您孩子持续成长和发展的指导。我们在这里希望能为您和您孩子的教育之旅提供支持。感谢您使用 Gimpass，我们期待着 进一步帮助您。")
             } else {
                 // Content for result range above 4
-                Text("Explanation for range above 4")
+                Text("感谢您使用 Gimpass 来评估您孩子的领导力特质。 根据结果，我们发现领导力的资优特质。 请您注意，天赋并不能保证成功，但它表明孩子有在才能和兴趣领域取得高成就的潜力。 为了支持您孩子的成长，我们建议您考虑提供给学生发展创意的平台和机会，为具有创造的的学生提供更包容的环境和对应的挑战和课程。 ")
+                     Spacer()
+                 Text("我们的团队可以回答您对结果及其对您孩子的教育意味着什么的任何疑问。 请记住，Gimpass 仅是一个帮助识别潜在天赋特征的工具，并不能替代专业识别。 如果您有兴趣对您孩子的能力进行更详细的分析，我们建议您寻求专业的鉴定服务。")
+                    Spacer()
+                 Text ("如果您有任何问题或疑虑，请随时与我们联系。 我们随时为您和您孩子的教育之旅提供支持。")
             }
             
-            Button("Restart Screening") {
+            Button("重新测试") {
                 restart()
             }
             .padding()
@@ -113,7 +122,7 @@ struct Result7View: View {
             .foregroundColor(.white)
             .cornerRadius(8)
             
-            Button("Save Screenshot") {
+            Button("保存结果") {
                 showShareSheet = true
             }
             .padding()

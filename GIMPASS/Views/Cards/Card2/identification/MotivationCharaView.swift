@@ -12,17 +12,17 @@ struct  MotivationCharaView: View {
     @State private var showResults = false
     @State private var resultRange: Int = 0
     let questions = [
-            ("1. The ability to concentrate intently on a topic for a long period of time", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("2. Behaviour that requires little direction from teachers.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("3. Sustained interest in certain topics or problems.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("4. Tenacity for finding out information on topics of interest.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("5. Persistent work on tasks even when setbacks occur.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("6. A preference for situations in which he or she can take personal responsibility for the outcomes of his or her efforts.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("7. Follow-through behaviour when interested in a topic or problem.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("8. Intense involvement in certain topics or problems.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("9. A commitment to long-term projects when interested in a topic.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("10. Persistence when pursuing goals.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"]),
-            ("11. Little need for external motivation to follow through in work that is initially exciting.", ["Never", "Rarely", "Sometimes", "Often", "Very often", "Every day"])
+            ("1. 展示出长时间专注的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("2. 展示出不需要或者少需要老师监督和引导的倾向；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("3. 展示出对一定问题和主题有持续的兴趣；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("4. 展示出坚持不懈地寻找感兴趣主题的信息的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("5. 展示出即使遇到挫折也能坚持不懈地完成任务的能力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("6. 偏好自己的努力能够对事件结果产生影响的情况；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("7. 对喜欢主题或者问题有后续行为；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("8. 展示出某些主题或问题强烈的参与感和意愿；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("9. 当对某个主题感兴趣时，就会长期致力于该项目或主题；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("10. 展示出追求目标时的强坚持力；", ["从未", "极少", "有时", "时常", "频繁", "一直"]),
+            ("11. 几乎不需要外部动力来完成感兴趣的项目或者活动；", ["从未", "极少", "有时", "时常", "频繁", "一直"])
         ]
 
     var body: some View {
@@ -30,16 +30,17 @@ struct  MotivationCharaView: View {
             ScrollView {
                 VStack {
                     // Leave space for pictures
-                    Image("your_image")
+                    Image("Tmoti")
                         .resizable()
                         .scaledToFit()
+                        .cornerRadius(10)
                 
                     
                     ForEach(0..<questions.count) { index in
                         QuestionView(questionText: questions[index].0, answerOptions: questions[index].1, selectedIndex: $selectedAnswers[index])
                     }
                     
-                    Button("Submit") {
+                    Button("提交") {
                         calculateResults()
                         showResults = true
                     }
@@ -50,7 +51,7 @@ struct  MotivationCharaView: View {
                 }
                 .padding()
                 .background(Color.white)
-                .navigationTitle("Motivation Characteristics")
+                .navigationTitle("内驱特质")
                 .fullScreenCover(isPresented: $showResults) {
                     ResultView(resultRange: resultRange, restart: restartScreening)
                 }
@@ -80,7 +81,7 @@ struct Question3View: View {
             Text(questionText)
                 .font(.headline)
             
-            Picker("Frequency", selection: $selectedIndex) {
+            Picker("频率", selection: $selectedIndex) {
                 ForEach(0..<answerOptions.count) { index in
                     Text(answerOptions[index]).tag(index)
                 }
@@ -100,13 +101,21 @@ struct Result3View: View {
         VStack {
             if resultRange == 1 {
                 // Content for result range 1 to 3
-                Text("Explanation for range 1 to 3")
+                Text("感谢您使用 Gimpass 来评估您孩子的内驱特质。 根据结果，我们没有在测试发现超常的内驱特质。")
+                Spacer()
+                Text("请您注意，每个孩子都有独特的优势和才能，Gimpass 只是帮助识别潜在天赋特征的工具，并不能替代专业的鉴定。 如果您想更详细地分析您孩子的能力，您可以寻求专业的鉴定服务。 我们还希望您继续支持和培养孩子的兴趣和能力，无论孩子是否是在这个方面有资优特征。")
+                Spacer()
+                Text("如果您有任何问题或疑虑，请随时与我们联系。 我们会回答您对结果的任何疑问，并提供有关如何支持您孩子持续成长和发展的指导。我们在这里希望能为您和您孩子的教育之旅提供支持。感谢您使用 Gimpass，我们期待着 进一步帮助您。")
             } else {
                 // Content for result range above 4
-                Text("Explanation for range above 4")
+                Text("感谢您使用 Gimpass 来评估您孩子的音乐特质。 根据结果，我们发现了内驱力的资优特质。 请您注意，天赋并不能保证成功，但它表明孩子有在才能和兴趣领域取得高成就的潜力。 为了支持您孩子的成长，我们建议您考虑提供给学生发展创意的平台和机会，为具有创造的的学生提供更包容的环境和对应的挑战和课程。 ")
+                     Spacer()
+                 Text("我们的团队可以回答您对结果及其对您孩子的教育意味着什么的任何疑问。 请记住，Gimpass 仅是一个帮助识别潜在天赋特征的工具，并不能替代专业识别。 如果您有兴趣对您孩子的能力进行更详细的分析，我们建议您寻求专业的鉴定服务。")
+                    Spacer()
+                 Text ("如果您有任何问题或疑虑，请随时与我们联系。 我们随时为您和您孩子的教育之旅提供支持。")
             }
             
-            Button("Restart Screening") {
+            Button("重新测试") {
                 restart()
             }
             .padding()
@@ -114,7 +123,7 @@ struct Result3View: View {
             .foregroundColor(.white)
             .cornerRadius(8)
             
-            Button("Save Screenshot") {
+            Button("保存结果") {
                 showShareSheet = true
             }
             .padding()

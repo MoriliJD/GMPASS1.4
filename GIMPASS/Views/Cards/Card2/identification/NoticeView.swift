@@ -14,41 +14,41 @@ struct NoticeView: View {
             VStack(alignment: .leading, spacing: 20) {
                 
                 // Letter to Users
-                Text("To Educators")
+                Text("致教育者们")
                     .font(.title)
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
                     .background(Color.blue)
                     .padding(.top, 20)
                 
-                Text("Dear educators,")
+                Text("亲爱的家长，老师，教育者们,")
                     .padding(.bottom, 10)
-                Text("We would like to inform you that while the rating scale for behavioral characteristics for superior students, provided by our app, can be helpful in getting a general idea of a student's strengths and weaknesses, it is not a very precise tool to identify giftedness. Giftedness is a complex and multifaceted concept that cannot be fully captured by any single screening tool. Therefore, the rating scale provided by our app is only intended for the very initial stage of identification of giftedness.")
+                Text("我们想告知您，虽然我们的应用程序提供的资优特质鉴定有助于总体了解学生的优势和劣势，但它并不是识别资优的非常精确的工具。 资优是一个复杂且多方面的概念，任何单一的筛选工具都无法完全捕捉到这一点。 因此，为了帮助教育者初步识别学生的资优潜质以及了解资优教育，Gimpass提供的评级量表仅适用于资优识别的最初阶段，请注意，为了保护您的孩子和学生，请不要将不准确的鉴定信息告知学生。")
                     .padding(.bottom, 5)
-                Text("We encourage our users to consult with professionals who specialize in gifted education for a more accurate and comprehensive evaluation of their child's abilities. Please keep in mind that there are many factors that can affect the accuracy of the results obtained from our screening tool, including the test conditions, the professionalism of the educators, personal understanding, and other individual factors.")
+                Text("请注意，有很多因素会影响我们筛选工具获得的结果的准确性，包括测试条件、教育者的专业水平、个人理解和其他个人因素。若您想深入了解Gimpass中的资优鉴定，我们建议您咨询专门从事资优教育的专业人士，以便更准确、更全面地评估孩子的能力。")
                     .padding(.bottom, 5)
-                Text("We hope that this information provides a better understanding of the limitations and potential inaccuracies of our screening tool. We remain committed to providing our users with the best possible resources for identifying and supporting gifted students.")
+                Text("我们希望这些信息可以帮助您更好地了解我们的鉴定工具的局限性和潜在的不准确性。 我们仍然致力于为您提供最好的资源来识别和帮助资优学生。")
                     .padding(.bottom, 5)
                 
                 
                 // Instructions
                 VStack{
-                    Text("Instructions")
+                    Text("使用说明")
                         .font(.title)
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity)
                         .background(Color.green)
                         .padding(.top, 20)
-                    
-                    Text("Welcome to our screening tool! This tool is designed to help you obtain teacher estimates of a student's characteristics in various areas, including Learning, Motivation, Creativity, Leadership, Art, Music, Drama, Communication, and Planning. These characteristics are derived from the research literature on gifted and creative individuals.")
+                    Spacer()
+                    Text("欢迎使用我们的筛选工具！ 该工具旨在帮助您获得教师对学生在各个领域的特征的估计，包括学习、动机、创造力、领导力、艺术、音乐、戏剧、沟通、规划和科学素养。 这些特征源自有关有天赋和创造力的个体的研究文献。")
                         .padding(.bottom, 5)
-                    Text("It's essential to note that there can be significant individual differences within this population, and therefore, the profiles are likely to vary. To use the tool, please consider each item in the scales separately and reflect on the presence or absence of each characteristic you have observed in the student.")
+                    Text("值得注意的是，该人群可能存在显着的个体差异，因此，概况可能会有所不同。 要使用该工具，请分别考虑量表中的每个项目，并反思您在学生中观察到的每个特征是否存在。")
                         .padding(.bottom, 5)
-                    Text("Since the ten dimensions of the instrument represent relatively different sets of behaviors, the scores obtained from the separate scales should not be summed to yield a total score. Educators should know the student for at least six months to ensure accuracy.")
+                    Text("由于该工具的十一个维度代表相对不同的特质，因此从不同量表获得的分数不应相加得出总分。 教育者应该了解学生至少六个月，以确保准确性。")
                         .padding(.bottom, 5)
-                    Text("To use the tool, please read each item in each scale and choose the option that corresponds to the frequency to which you have observed the behavior. Each item should be read with the beginning phrase, 'The student demonstrates' or 'The student...?'. Once you have completed all the items, click submit to get a result. You can keep the screenshot after you finish.")
+                    Text("要使用该鉴定工具，请阅读每个量表中的每个项目，并选择与您观察到该行为的频率相对应的选项。 每个项目都应以开头短语“学生展示”或“学生...？”来阅读。 完成所有项目后，单击“提交”即可获取结果。 完成后您可以保留屏幕截图。")
                         .padding(.bottom, 5)
-                    Text("Thank you for using our screening tool, and we hope that it provides helpful insights into the characteristics of your students.")
+                    Text("感谢您使用我们的筛选工具，我们希望它能为您提供有关学生特征的有用信息。")
                 }
                 
             

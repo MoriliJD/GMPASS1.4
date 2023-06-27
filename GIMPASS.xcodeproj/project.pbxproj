@@ -340,7 +340,7 @@
 			};
 			buildConfigurationList = 8D33FE8D2A497AF30082F0D0 /* Build configuration list for PBXProject "GIMPASS" */;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = en;
+			developmentRegion = "zh-Hans";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
